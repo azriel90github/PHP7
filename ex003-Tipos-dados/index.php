@@ -1,11 +1,22 @@
 
 <?php 
 
+/**
+ * Tipos Primitivos do PHP
+ * int(number) = 2004
+ * float(number) = 18.000
+ * string(text) = "Azriel Armando" ou 'Azriel Armando'
+ * boleano(true,false) = true, false
+ * array(composto) = $frutas = array("Laranja", "Manga", "Abacaxi");
+ * object(composto) = $dataNascimento = new DateTime();
+ *
+ */
+
 
 $nomeCompleto = "Azriel Armando"; //exemplo de declaração de variaveis usando camerCase
-$anoNascimento = 2004;
-$nome1 = "Hadassa";
-$sobreNome = "Rabugenta";
+$anoNascimento = 2004; // tipo number(int)
+$nome1 = "Hadassa"; // tipo string
+$sobreNome = "Rabugenta"; // tipo string
 
 
 echo $nomeCompleto; //mostrar na tela a variaavel nomeCompleto
@@ -30,10 +41,10 @@ $email = 'azrielgithub@gmmail.com';
 /////////////////////////////////// Variaveis do tipo string(aspas simples, duplas)
 
 
-$ano = 2004;
-$salario = 32.000;
+$ano = 2004; // int
+$salario = 32.000; // float
 ////////////////////////////////// Variaveis do tipo number(float,int)
-$bloqueado = false;
+$bloqueado = false; // Boleano
 
 
 
