@@ -23,6 +23,6 @@
 
     echo '<br>';
 
-    echo $a ** $b; // 10 elevado ao quadrado
+    echo $a ** $b; // qualquer numero elevado ao quadrado
 
 ?>
