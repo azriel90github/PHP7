@@ -30,7 +30,7 @@ exit;
 //unset($anoNascimento);// remover variavel do escopo
 
 if (isset($anoNascimento)) { 
-    echo $anoNascimento; //mostrar na tela a variavel anoNascimentov
+    echo $anoNascimento; //mostrar na tela a variavel anoNascimento
 }
 
 /*  A função isset verifica de uma variavel esta declarada e se o seu valor é diferente de null*/
